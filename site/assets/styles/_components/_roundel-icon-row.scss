@@ -1,0 +1,60 @@
+.roundel-icon-row{
+	text-align: center
+}
+
+.roundel-icon-row__icon{
+
+	&:before{
+		content:'';
+		background-color: $color-info; 
+	    height: 120px;
+	    width: 120px;
+	    border-radius: 50%;
+	    cursor: pointer;
+	    content: '';
+	    background-repeat: no-repeat;
+	    background-position: 50% 50%;
+	    position: relative;
+	    display: inline-block;
+		background-size: 55%;
+
+	}
+    @include media-min(medium) {
+    	&:before{
+		    height: 160px;
+	    	width: 160px;
+	    	background-size: auto;
+    	}
+    }
+
+}
+
+.roundel-icon-row-feefo{
+	&:before{
+		background-image: url("../images/icon--feefo-rating.png");
+	}
+}
+
+.roundel-icon-row-vets{
+	&:before{
+		background-image: url("../images/icon--vets.png");
+	}
+}
+
+.roundel-icon-row-claims{
+	&:before{
+		background-image: url("../images/icon--dogface.png");
+	}
+}
+
+.roundel-icon-row-support{
+	&:before{
+		background-image: url("../images/icon--phone.png");
+	}
+}
+
+.roundel-icon-row-save{
+	&:before{
+		background-image: url("../images/icon--catface.png");
+	}
+}

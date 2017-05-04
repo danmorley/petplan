@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    LINKS
+\*------------------------------------*/
+
+
+
+@mixin link_reset() {
+    &:hover, &:active {
+        outline: 0;
+    }
+    &:focus {
+        outline: thin dotted $gray-darker;
+    }
+}
+
+
+
+/* default link
+ -----------------------------------*/
+a {
+    @include link_reset();
+    color: inherit;
+}
+
+
+
+/* Link colors
+ -----------------------------------*/
+.link--alpha {
+	color: $color-alpha;
+}
+.link--beta {
+	color: $color-beta
+}
+
+
+.chevron-link--solid{
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    padding: 10px 50px 10px;
+    display: inline-block;
+    line-height: 1;
+} 
+.chevron-link--alpha{
+   background-image: url('../images/chevron-link--blue.png')
+}
+

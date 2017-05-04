@@ -1,0 +1,99 @@
+
+.cover-selector {
+	margin-top: -80px;
+	@include media-min( medium ) {
+		margin-top: -160px;
+	}
+	@include media-min( large ) {
+		margin-top: -200px;
+	}
+	
+	.bx-controls{
+		margin-top: 30px;
+	}
+}
+.cover-selector-animal{
+
+	margin: 20px auto 0;
+
+	background-repeat: none;
+	width: 200px;
+	height: 200px;
+
+	background-size: 200px 200px;
+
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.3); 
+
+	@include media-min( large ) {
+		margin: 20px auto;
+		width: 287px;
+		height: 287px;
+		background-size: auto;
+		box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.3); 
+	}
+
+}
+
+.cover-selector-dog{
+	background-image: url('../images/dog-cover-roundel.png')
+}
+
+
+.cover-selector-cat{
+	background-image: url('../images/cat-cover-roundel.png')
+}
+
+.cover-selector-rabbit{
+	background-image: url('../images/rabbit-cover-roundel.png')
+}
+			  
+
+.cover-selector-slider{
+
+
+	@include media-min( medium ) {
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		align-items: stretch;
+	}
+}
+
+.cover-selector__slider-item{
+	
+	
+	@include media-min( medium ) {
+		flex-basis: 0;
+    	flex-grow: 1;
+    }
+}
+
+.cover-selector__button{
+
+	width: 27px;
+	height: 45px;
+	background:none;
+	border: 0;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 70%;
+	@include media-min( medium ) {
+		display: none;	
+	}
+}
+
+.cover-selector__slider--link{
+
+	position: relative;
+	left: -15px;
+}
+.cover-selector__button--prev{
+	background-image: url(../images/chevron-carousel-left--blue.png);
+    left: 20px;
+}
+
+.cover-selector__button--next {
+	background-image: url(../images/chevron-carousel-right--blue.png);
+    right: 20px;
+} 

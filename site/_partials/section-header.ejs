@@ -1,0 +1,22 @@
+
+<%
+	var headerClass = headerClass || '';
+	var titleClass = titleClass || '';
+	var introClass = introClass || '';
+
+	var title = title || false;
+	var intro = intro || false;
+
+%>
+
+
+<header class="section-header <%- headerClass %>">
+	<div class="section-header__inner">
+		<% if (title) { %>
+			<h1 class="section-header__title <%- titleClass %>"><%- title %></h1>
+		<% } %>
+		<% if (intro) { %>
+			<p class="section-header__intro <%- introClass %>"><%- intro %></p>
+		<% } %>
+	</div>
+</header>

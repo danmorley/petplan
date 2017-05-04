@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    TYPE UTILITES
+\*------------------------------------*/
+
+
+/* Text classes
+ -----------------------------------*/
+.text--left {
+    text-align: left;
+}
+.text--right {
+    text-align: right;
+}
+.text--center {
+    text-align: center;
+}
+.text--no-wrap {
+    white-space: nowrap;
+}
+
+.text--white {
+	&, h1, h2, h3, h4, h5, h6, p, input {
+		color: $white;
+	}
+}
+
+.text--small {
+	font-size: 16px;
+}
+.text--large {
+	font-size: 30px;
+}
+.text--massive {
+	font-size: 100px;
+}
+
+.text--weight-normal {
+	font-weight: normal;
+}
+.text--weight-bold {
+	font-weight: bold;
+}
+.text--weight-light {
+	font-weight: 300;
+}
+
+.text--main-font{
+	font-family: $font-primary;
+}
+

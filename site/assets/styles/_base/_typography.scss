@@ -1,0 +1,41 @@
+/* Paragraph
+ -----------------------------------*/
+
+p {
+    margin: 0 0 em(10px);
+    font-family: $font-secondary;
+}
+
+.lead {
+    font-size: em($base-font-size-big);
+}
+
+small, .small {
+    font-size: em($base-font-size-small);
+    line-height: em($base-font-size-small, $base-font-size-small);
+}
+
+
+
+/* Paragraph inline elements
+ -----------------------------------*/
+mark {
+    padding: 0 em(3px);
+    background: lighten($color-alpha, 35%);
+}
+
+s, strike, del {
+    text-decoration: line-through;
+}
+
+ins, u {
+    text-decoration: underline;
+}
+
+em {
+    font-style: $base-variant-alt;
+}
+
+strong {
+    font-weight: $base-weight-strong;
+}

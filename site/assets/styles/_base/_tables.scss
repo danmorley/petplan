@@ -1,0 +1,40 @@
+
+
+
+.th-primary{
+	background-color: $th-primary;
+}
+
+.th-secondary{
+	background-color: $th-secondary;
+}	
+
+
+.th-tertiary{
+	background-color: $th-tertiary;
+}
+
+.td-primary{
+	background-color: $td-primary;
+}	
+
+.td-primary--light{
+	background-color: $td-primary-light ;
+}	
+
+
+.td-secondary{
+	background-color: $td-secondary;
+}	
+
+.standard-table{
+
+	td{
+		padding: 20px;
+	}
+	th{
+		padding: 20px;
+	}
+}
+
+

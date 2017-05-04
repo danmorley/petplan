@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+/* default image
+ -----------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Basic modifiers
+ -----------------------------------*/
+.img--center {
+	@include center-block();
+	display: block;
+}
+
+.img--full {
+	width: 100%;
+}

@@ -1,0 +1,35 @@
+
+
+.section-header {
+    text-align: center;
+}
+
+.section-header__inner {
+    @include clearfix();
+    @include media-max(small) {
+        br {
+            display: none;
+        }
+    }
+
+    padding-right: $grid-gutter-half;
+    padding-left: $grid-gutter-half;
+}
+
+.section-header__intro {
+    margin: 10px auto 0;
+    color: $gray-text;
+    @include media-min(large) {
+        max-width: 60%
+    }
+
+    @extend .h5;
+}
+
+
+.section-header__no-padd{
+    .section-header__inner {
+        padding: 0;
+    }
+}
+

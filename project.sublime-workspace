@@ -1,0 +1,791 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pso",
+				"position"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"slider",
+				"sliderExists"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"brand",
+				"brand-tertiary"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"tot",
+				"totalColumns"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"promo",
+				"promoApplied"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"stic",
+				"stickyWrappers"
+			],
+			[
+				"fl",
+				"floatingTable"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"sele",
+				"product-item__product--selected"
+			],
+			[
+				"produc",
+				"productChoice"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bo",
+				"boxShaddow"
+			],
+			[
+				"tab",
+				"table-layout"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"fle",
+				"flex-basis"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"data",
+				"dataList"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"sti",
+				"stickyClass"
+			],
+			[
+				"stciky",
+				"stickyElement"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"cur",
+				"cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 5069,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/dan_p/Documents/web dev/petplan",
+		"/C/Users/dan_p/Documents/web dev/petplan/site"
+	],
+	"file_history":
+	[
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_tables.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_cover-compare.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_tablesaw.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main/controller.js",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main/_table-respond.js",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--cover-types.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/index.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_spacing-utilities.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/plugins/a_tablesaw.js",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_all.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_variables.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_all.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--full-double-cta.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/dog-insurance.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_learn-more.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_lists.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_color-utilities.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_partials/section-header.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--learn.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_sticky-footer.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_base.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_section-header.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--pet-advice.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_buttons.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_full-double-cta.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_roundel-icon-row.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--hero-banner.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--benefits.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_cover-selector.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_hero-banner.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--pet-support.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/dog-insurance--multi-links.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--hero-banner.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_type-utilities.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--promotions.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/_partials/sticky-footer.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_page-section.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_site-nav.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_pet-advice-selector.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main/_testimonial-slider.js",
+		"/Users/admin/Documents/petplan-prototype/site/_partials/site-footer.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main/_pet-advice-selector.js",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_slider.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--full-double-cta.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main/_cover-selector.js",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components/_testimonial-slider.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--testimonials.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_headings.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_typography.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--multi-links.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_links.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/home--choose-cover.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_visibility-utilities.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_clearfix-utilities.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_objects/_grid.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_mixins/_media-queries.scss",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_mixins/_grids.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_sections/get-a-quote.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_overides/_all.scss",
+		"/Users/admin/Documents/petplan-prototype/site/_partials/site-nav.ejs",
+		"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base/_fonts.scss",
+		"/Users/admin/Documents/petplan-prototype/Gruntfile.js",
+		"/Users/admin/Documents/petplan-prototype/site/assets/scripts/main.min.js",
+		"/Users/admin/Documents/petplan-prototype/site/columns.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/accounting--products-table.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/styles/_components/_product-selector.scss",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_product-comparator.js",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_peekAboo.js",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main.min.js",
+		"/Users/admin/Documents/sage-fep/site/partners.ejs",
+		"/Users/admin/Documents/sage-fep/site/_partials/_responsive-table.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/styles/_components/_products-table.scss",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--program-overview.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/styles/_components/_industry-selector.scss",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--partner-selector.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_responsive-table.js",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/controller.js",
+		"/Users/admin/Documents/sage-fep/site/assets/styles/_components/_content-circle.scss",
+		"/Users/admin/Documents/sage-fep/site/_sections/accounting--resons-to-choose-sage.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--program-overview-1.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--get-started.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--login.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/home--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/partners--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/partner__s.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-50--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-live--explore.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--explore.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/home--explore.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/solutions--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/accounting--explore.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--interested-in-sage-50.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-50--explore.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/enterprise--how-we-help.ejs",
+		"/Users/admin/Documents/sage-fep/site/sage-x3.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-one--hero-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_industry-selector.js",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--manufacturing-what-sage-x3-can-do.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--proManufacturing-what-sage-x3-can-do.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--contact-banner.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--results-you-can-expect.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--resons-to-choose-sage.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_section-selector.js",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/_section-selector.js",
+		"/Users/admin/Documents/sage-fep/site/_sections/accounting--features.ejs",
+		"/Users/admin/Documents/sage-fep/site/_sections/sage-x3--business-thinking.ejs",
+		"/Users/admin/Documents/sage-fep/site/_partials/_sign-up-bars.ejs",
+		"/Users/admin/Documents/sage-fep/site/_checkout-partials/basket--summmary--50.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/styles/_components/_basket-summary.scss",
+		"/Users/admin/Documents/sage-fep/site/checkout-50/basket.ejs",
+		"/Users/admin/Documents/sage-fep/site/assets/scripts/main/_basket-summary-promo.js",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/accounting--products-table.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/accounting--features.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts/main/_product-comparator.js",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/sage-one--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/accounting--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/grow-your-business--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/enterprise--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/sage-live--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/small-businesses--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/sage-50--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/sage-x3--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/blog-post--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/partners--hero-banner.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/_sections/sage-one--explore.ejs",
+		"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles/_components/_all.scss",
+		"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles/_components/_content-tabs.scss"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles",
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base",
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles",
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles/_base",
+			"/Users/admin/Documents/petplan-prototype/site/_sections",
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles/_components",
+			"/Users/admin/Documents/petplan-prototype/site/assets/styles",
+			"/Users/admin/Documents/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-fep/site/assets/styles/_components",
+			"/Users/admin/Documents/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-fep/site",
+			"/Users/admin/Documents/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts/main",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles/_components",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles/_components",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts/main",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles/_components",
+			"/Users/admin/Documents/sage-new/sage-fep/site/_sections",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/scripts/main",
+			"/Users/admin/Documents/sage-new/sage-fep",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets",
+			"/Users/admin/Documents/sage-new/sage-fep/site",
+			"/Users/admin/Documents/sage-new/sage-fep/site/assets/styles"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tablesaw-cell-hidden",
+			"bet",
+			"15px",
+			"animal",
+			"green",
+			"20px",
+			"padd",
+			"em",
+			"small",
+			"bold",
+			"font",
+			"em(",
+			"em",
+			"]\">",
+			"hide-above",
+			"spacing-bottom",
+			"h3",
+			"img",
+			"base-line-height",
+			"line-height",
+			"img",
+			"min",
+			"font",
+			"hide-below",
+			"small",
+			"spacing-top",
+			"small",
+			"$gutter",
+			"gutter",
+			"row",
+			"column",
+			"alpha",
+			"transition",
+			"clearfix",
+			"brand",
+			"transi",
+			"cover",
+			"sag",
+			"sage",
+			"960px",
+			"base-font",
+			"base",
+			"close",
+			"product-feature__no-products",
+			"no-products",
+			"product-item__product-msg",
+			"none",
+			"closest",
+			"msg",
+			"stick-b",
+			"click",
+			"stuck",
+			"console",
+			"tick-bottom",
+			"addtoc",
+			"click",
+			"selec",
+			"compareWayPoint",
+			"peek",
+			"peel",
+			"toggleHeader",
+			">=",
+			"peek",
+			"toggleHeader",
+			"tHeaderWayPoint",
+			"head",
+			"stickywr",
+			"timeo",
+			"resiz",
+			"hidden",
+			"resize",
+			"show",
+			"shw",
+			"stick",
+			"addToCompare",
+			"$compareSection",
+			"comparesect",
+			"sticky",
+			"product-comparison-wrap",
+			"--",
+			"';\n",
+			"hidd",
+			"destr",
+			"stick",
+			"productClicked",
+			"productShowCount",
+			"update",
+			"updatetable",
+			"compa",
+			"dest",
+			"productSelectors",
+			"compare",
+			"productSelectors",
+			"selecte",
+			"productselected",
+			"productselectors",
+			"selected",
+			"stickyWrappers",
+			"des",
+			"compare",
+			"item__wrap",
+			"item-wra",
+			"selected",
+			"seelect",
+			"select",
+			"mobil",
+			"industry-selector__item--header",
+			"ndustry-selector",
+			"ndustry-selecto",
+			"tertiary",
+			"nav",
+			"tertiary",
+			"industry-selector__item",
+			"currentColumnt",
+			"more",
+			"multi-section",
+			"colum",
+			"totalco",
+			"[",
+			"checked",
+			"tick",
+			"titl",
+			"th ",
+			"deb",
+			"responsive-table",
+			"heig",
+			"responsive-table",
+			"data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Sage X3",
+			"pricingCards",
+			"pricing-cards"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "project.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4670,
+								4670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7068.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 421.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

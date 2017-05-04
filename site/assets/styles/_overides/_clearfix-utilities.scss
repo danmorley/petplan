@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    CLEARFIX
+\*------------------------------------*/
+.clearfix {
+    @include clearfix;
+}
+
+.clear-below-small{
+    @include media-max(small) {
+        clear: left;
+    }
+}
+.clear-below-medium{
+    @include media-max(medium) {
+        clear: left;
+    }
+}

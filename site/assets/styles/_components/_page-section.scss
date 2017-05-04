@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    Page section global
+\*------------------------------------*/
+
+.page-section__inner {
+    @include clearfix();
+
+    position: relative;
+    z-index: 2;
+}
+
+.page-section--padded {
+    padding: 25px 0 20px;
+    @include media-min( medium ) {
+        padding: 60px 0;
+    }
+}
+
+.page-section--padded-bottom {
+
+    padding-bottom: 25px;
+    @include media-min( medium ) {
+        padding-bottom: 60px;
+    }
+}
+
+.page-section--padding-top{
+    padding-top: 60px;
+}
+.page-section--padding-top-large{
+    padding-top: 100px;
+}
+.page-section__top-image{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: 0 auto;
+    z-index: 10;
+}

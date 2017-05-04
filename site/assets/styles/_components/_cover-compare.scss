@@ -1,0 +1,120 @@
+.cover-compare__heading{
+	sup{
+		font-size: 60%;
+		margin-left: 3px;
+		position: relative;
+		top: -10px;
+	}
+}
+.cover-compare__header-block{
+	@include media-min( medium ) {
+			}
+}
+.cover-compare__header-image{
+	margin: 0 auto;
+}
+
+.cover-compare__image-block{
+
+	@include media-min( medium ) {
+		height: 200px;
+		position: relative;
+		img{
+			position:absolute;
+			bottom: 0;
+			left: 0; 
+			right: 0;
+			margin: auto;
+		}
+
+	}
+}
+
+.cover-compare__or{
+
+	width: 100%;
+	background-image: url("../images/grey-repeat.jpg");
+	height: 2px;
+	margin: 40px 0;
+	position: relative;
+	z-index:0;
+	
+	@include media-min( medium ) {
+		height: 100%;
+		width: 2px;
+		left: 30px;
+		top:0;
+		margin: 0 auto;
+	}
+
+	&:after{
+
+		width: 60px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		position: absolute;
+		top: -30px;
+		color: $gray-text-light;
+		border: 2px solid $gray-text-light;
+		background-color:$white;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		content:'OR';
+		z-index:1;
+
+
+		@include media-min( medium ) {
+			width: 60px;
+			left: -30px;
+			top: 40%;
+			right: auto;
+		}
+	}
+
+	span{
+		text-indent: -2000em;
+		display: block;
+	}
+
+}
+
+
+.cover-detail__table{
+	 max-width: 100%;
+    width: 100%;
+	border-spacing:10px;
+	border-collapse: separate;
+	@include media-min( small ) {
+		table-layout: fixed;
+	}
+}
+
+.cover-detail__th-row{
+	text-align: left;
+}
+
+.cover-detail__th-col{
+	text-align: left;
+}
+
+.cover-detail__table__col-1{
+	width: 50% !important;
+	@include media-min( small ) {
+		width: auto !important;
+	}
+}
+
+.tablesaw-fix-persist{
+
+	.tablesaw-cell-showing{
+		width:150px;
+		@include media-min( medium ) {
+			width: auto;
+		}
+
+	}
+}

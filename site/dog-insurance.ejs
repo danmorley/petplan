@@ -1,0 +1,39 @@
+<div class="site-cover">
+	<%- partial("_partials/site-nav.ejs") %>
+	<div class="site-cover__inner">
+
+		<!--  -->
+		<div class="site-wrapper ">
+
+			<%- partial("_partials/site-header.ejs", {addClass:'test'}) %>
+
+			<main class="site-body">
+<!--
+	<div style="display:none">	
+	</div>
+	-->
+				<%- partial("_sections/dog-insurance--hero-banner.ejs") %>
+
+				<%- partial("_sections/dog-insurance--cover-types.ejs") %>
+				
+				<div class="[ hide-above--medium spacing-top--nano ] ">
+					<%- partial("_sections/get-a-quote.ejs") %>
+				</div>
+
+				<%- partial("_sections/get-a-quote.ejs") %>
+
+				<%- partial("_sections/dog-insurance--multi-links.ejs") %>
+
+				<%- partial("_sections/dog-insurance--benefits.ejs") %>
+
+				<%- partial("_sections/dog-insurance--learn.ejs") %>
+
+				<%- partial("_sections/dog-insurance--full-double-cta.ejs") %>
+			</main>
+
+			<%- partial("_partials/sticky-footer.ejs") %>
+
+		</div>
+
+	</div>
+</div>

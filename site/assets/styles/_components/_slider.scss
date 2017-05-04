@@ -1,0 +1,95 @@
+// required bxSlider
+.bx-wrapper {
+    position: relative;
+
+    padding: 0;
+
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+}
+.bxslider {
+    margin: 0;
+    padding: 0;
+}
+.bx-viewport {
+    /*fix other elements on the page moving (on Chrome)*/
+    -webkit-transform: translatez(0);
+}
+
+
+.slider__item {
+    & + .slider__item {
+        display: none;
+        .bx-wrapper & {
+            display: block;
+        }
+    }
+}
+
+
+$pager-size: 15px;
+
+.bx-pager {
+    height: $pager-size;
+    text-align: center;
+}
+
+
+.bx-pager-item {
+    display: inline-block;
+
+    a {
+        position: relative;
+
+        text-indent: -2000em;
+
+        display: block;
+        width: $pager-size;
+        height: $pager-size;
+        margin: 0 5px;
+        background: $white;
+        border-radius: 50%;
+        border: 2px solid $color-alpha;
+
+        &.active {
+            background: $color-alpha;
+        }
+    }
+}
+
+
+
+.ten-ways__button {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+
+$button-side: 120px;
+[data-slider-previous] {
+    left: $button-side;
+}
+[data-slider-next] {
+    right: $button-side;
+}
+
+
+.bx-wrapper {
+    .slider__item {
+        .row {
+            transition: all $transition;
+            transform: scale(.3);
+
+            opacity: 0;
+        }
+
+        &.in_view {
+            .row {
+                transform: scale(1);
+
+                opacity: 1;
+            }
+        }
+    }
+}

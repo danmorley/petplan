@@ -1,0 +1,177 @@
+/*------------------------------------*\
+    SPACING & MARGINS
+\*------------------------------------*/
+
+
+/* top and bottom margins
+ -----------------------------------*/
+.spacing--nano {
+    margin-top: $spacing-nano;
+    margin-bottom: $spacing-nano;
+}
+.spacing--micro {
+    margin-top: $spacing-micro;
+    margin-bottom: $spacing-micro;
+}
+.spacing--milli {
+    margin-top: $spacing-milli;
+    margin-bottom: $spacing-milli;
+}
+.spacing--centi {
+    margin-top: $spacing-centi;
+    margin-bottom: $spacing-centi;
+}
+.spacing--deci {
+    margin-top: $spacing-deci;
+    margin-bottom: $spacing-deci;
+}
+.spacing--deca {
+    margin-top: $spacing-deca;
+    margin-bottom: $spacing-deca;
+}
+.spacing--hecto {
+    margin-top: $spacing-hecto;
+    margin-bottom: $spacing-hecto;
+}
+.spacing--kilo {
+    margin-top: $spacing-kilo;
+    margin-bottom: $spacing-kilo;
+}
+.spacing--mega {
+    margin-top: $spacing-mega;
+    margin-bottom: $spacing-mega;
+}
+.spacing--giga {
+    margin-top: $spacing-giga;
+    margin-bottom: $spacing-giga;
+}
+
+
+
+
+/* top margin only
+ -----------------------------------*/
+.spacing-top--nano {
+    margin-top: $spacing-nano;
+}
+.spacing-top--micro {
+    margin-top: $spacing-micro;
+
+    @include media-max(small) {
+        margin-top: $spacing-micro/2;
+    }
+}
+
+.spacing-top--milli {
+    margin-top: $spacing-milli;
+
+    @include media-max(small) {
+        margin-top: $spacing-milli/2;
+    }
+}
+.spacing-top--centi {
+    margin-top: $spacing-centi;
+    @include media-max(small) {
+        margin-top: $spacing-centi/2;
+    }
+}
+
+
+.spacing-top--deci {
+    margin-top: $spacing-deci;
+}
+.spacing-top--deca {
+    margin-top: $spacing-deca;
+}
+.spacing-top--hecto {
+    margin-top: $spacing-hecto;
+    @include media-max(small) {
+        margin-top: $spacing-hecto/2;
+    }
+}
+
+.spacing-top--kilo {
+    margin-top: $spacing-kilo;
+}
+.spacing-top--mega {
+    margin-top: $spacing-mega;
+    
+    @include media-max(small) {
+        margin-top: $spacing-mega/2;
+    }
+}
+
+.spacing-top--giga {
+    margin-top: $spacing-giga;
+}
+
+
+
+/* bottom margin only
+ -----------------------------------*/
+.spacing-bottom--nano {
+    margin-bottom: $spacing-nano;
+}
+.spacing-bottom--micro {
+    margin-bottom: $spacing-micro;
+}
+.spacing-bottom--milli {
+    margin-bottom: $spacing-milli;
+}
+
+.spacing-bottom--centi {
+    margin-bottom: $spacing-centi;
+    @include media-max(small) {
+        margin-bottom: $spacing-centi/2;
+    }
+}
+.spacing-bottom--deci {
+    margin-bottom: $spacing-deci;
+}
+.spacing-bottom--deca {
+    margin-bottom: $spacing-deca;
+}
+.spacing-bottom--hecto {
+    margin-bottom: $spacing-hecto;
+}
+.spacing-bottom--kilo {
+    margin-bottom: $spacing-kilo;
+}
+.spacing-bottom--mega {
+    margin-bottom: $spacing-mega;
+}
+.spacing-bottom--giga {
+    margin-bottom: $spacing-giga;
+}
+
+
+/* Responsive custom utilities
+ -----------------------------------*/
+.spacing-top--nano--bp-max-small {
+    @include media-max(small) {
+        margin-top: $spacing-nano;
+    }
+}
+.spacing-top--milli--bp-max-small {
+    @include media-max(small) {
+        margin-top: $spacing-milli;
+    }
+}
+
+.spacing-top--nano--bp-max-medium {
+    @include media-max(medium) {
+        margin-top: $spacing-nano;
+    }
+}
+.spacing-top--milli--bp-max-medium {
+    @include media-max(medium) {
+        margin-top: $spacing-milli;
+    }
+}
+
+.squeeze-medium{
+     @include media-min(medium) {
+        padding-left: 15%;
+        padding-right: 15%;
+     }
+}

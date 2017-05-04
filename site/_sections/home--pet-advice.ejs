@@ -1,0 +1,33 @@
+<section class="page-section page-section--padding-top page-section--padding-top-large [ position--relative ]">
+	<img class="pet-advice-lightbulbs page-section__top-image" src="./assets/images/lightbulbs.png" alt="" >
+	<div class="page-section__inner page-section--padded curved-top-background curved-top-background--padding">
+
+		<%- partial('../_partials/section-header',{
+			title : 'Learn about <br>your pet',
+			intro : 'Get expert knowledge on your breed\'s potential illnesses and for tips on giving them the best life possible.',
+			headerClass: 'curved-top-background__inner'
+		}) %>
+			<div class="pet-advice-selector [ clearfix ] ">
+				<div class =" { container  } [ spacing-top--milli ] ">
+					<div class="curved-top-background__inner">
+						<ul class="pet-advice-slider">
+							<li class="pet-advice-slider__item text--center">
+								<img class="pet-advice-slider__animal pet-advice-slider-cat" src="./assets/images/pet-advice-cat.png" alt="cat" >
+								<a href="#" class=" button--white-clear button--small button--block button--alpha-white-chevron pet-advice-slider__link" >Cat advice</a>	
+							</li>
+							<li class="pet-advice-slider__item text--center">
+								<img class="pet-advice-slider__animal pet-advice-slider-dog" src="./assets/images/pet-advice-dog.png" alt="dog" >
+								<a href="#" class=" button--white-clear button--small button--block button--alpha-white-chevron pet-advice-slider__link" >Dog advice</a>	
+							</li>
+							<li class="pet-advice-slider__item text--center">
+								<img class="pet-advice-slider__animal pet-advice-slider-rabbit" src="./assets/images/pet-advice-rabbit.png" alt="rabbit" >
+								<a href="#" class=" button--white-clear button--small button--block button--alpha-white-chevron pet-advice-slider__link" >Rabbit advice</a>	
+							</li>
+						</ul>
+						<button class="pet-advice-selector__button pet-advice-selector__button--next { hide-above--large }"></button>
+						<button class="pet-advice-selector__button pet-advice-selector__button--prev { hide-above--large }"></button>
+					</div>
+				</div>
+			</div>
+	</div>
+</section>

@@ -1,0 +1,138 @@
+
+.pet-advice-selector{
+	background-image: url("../images/grass-background.png");
+
+	background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% 107px;
+    position: relative;
+	background-color: color-beta;
+
+	&:after{
+		background-color: $color-beta;
+		height:130px;
+		width: 100%;
+		margin-top: 100px;
+		content:'';
+		position: absolute;
+		bottom:-130px;
+		z-index: 0;
+	}
+	&:before{
+		background-color: $white;
+		height:2px;
+		width: 100%;
+		content:'';
+		position: absolute;
+		bottom:0;
+		z-index: 1;
+	}
+
+	.bx-viewport{
+		
+		z-index:1;
+		height: 450px !important;
+		top: 100px !important;
+		margin-top: -100px;
+	}
+}
+
+.pet-advice-slider{
+	position: relative;
+	top: 90px;
+	z-index: 1;
+
+	@include media-min( medium ) {
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		align-items: stretch;
+
+
+	}
+}
+.pet-advice-slider__animal{
+	position: absolute;
+	bottom: 80px;
+	margin: 0 auto;
+	left:0;
+	right:0;
+}
+
+.pet-advice-slider__item{
+	height: 350px;
+	position: relative;
+	@include media-min( medium ) {
+		flex-basis: 0;
+    	flex-grow: 1;
+    }
+}
+
+.pet-advice-selector__button{
+
+	width: 27px;
+	height: 45px;
+	background:none;
+	border: 0;
+	z-index: 2;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 40%;
+	@include media-min( medium ) {
+		display: none;	
+	}
+}
+
+.pet-advice-slider__link{
+	width: 70%;
+	position: absolute;
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.pet-advice-selector__button--prev{
+	background-image: url(../images/chevron-carousel-left--blue.png);
+    left: 20px;
+}
+
+.pet-advice-selector__button--next {
+	background-image: url(../images/chevron-carousel-right--blue.png);
+    right: 20px;
+} 
+
+.curved-top-background{
+	background-color: #f7fafc;
+	border-radius:  100vh 100vh 0 0 /  35vh 35vh 0 0;
+    position: relative;
+    z-index: 0;
+	margin-left: -10%;
+    margin-right: 10%;
+    width: 120%;
+
+    @include media-min( medium ) {
+    	border-radius:  200vh 200vh 0 0 /  75vh 75vh 0 0;
+    }
+
+    .section-header, .container{
+    	position:relative
+    }
+
+
+}
+.curved-top-background__inner{
+ 	position: relative;
+	margin-left:10%;
+	margin-right: 10%;
+}
+
+.curved-top-background--padding{
+	padding-top:150px;
+}
+
+.curved-top-background-lightbulbs{
+	background-image: url(../images/lightbulbs.png);
+	background-repeat: no-repeat;
+	background-position: center top -40px;
+}

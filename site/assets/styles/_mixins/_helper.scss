@@ -1,0 +1,22 @@
+// Strips the unit character
+@function strip-unit($num) {
+    @return $num / ($num * 0 + 1);
+}
+
+// Converts PX to EM
+@function em($px, $base: $base-font-size) {
+    @return ( strip-unit($px) / strip-unit($base)) * 1em;
+}
+
+// converts Photoshop letter spacing
+@function letter-spacing($space) {
+    @return ( $space / 1000 ) * 1em;
+}
+@mixin letter-spacing($space) {
+    letter-spacing: letter-spacing($space);
+}
+
+@mixin center-block() {
+    margin-right: auto;
+    margin-left: auto;
+}

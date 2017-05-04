@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    BASE STYLES
+\*------------------------------------*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: $base-font-size;
+
+    box-sizing: border-box;
+}
+
+body {
+    color: $base-font-color;
+    font-family: $base-font;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
+
+    background: $body-background;
+
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+.site-body{
+
+    &.has-pet-selector-at-bottom{
+        padding-bottom: 174px;
+
+        @include media-min( medium ) {
+            padding-bottom: 154px;
+        }
+    }
+     padding-bottom: $sticky-footer-height-mobile;
+
+    @include media-min( medium ) {
+        padding-bottom: $sticky-footer-height;
+    }
+}
+
+.site-wrapper{
+    max-width: 100%;
+    overflow: hidden;
+}

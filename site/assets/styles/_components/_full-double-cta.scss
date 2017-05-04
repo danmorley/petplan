@@ -1,0 +1,104 @@
+
+
+.full-double-cta__content{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	padding: 0 20px;
+
+}
+.full-double-cta__bkg{
+	background-size: cover;
+	background-position: center center;
+	height: 280px;
+	position: relative;
+	overflow: hidden;
+	 @include media-min( small ) {
+	 	height: 612px;
+	 }
+
+ 	@include media-min( medium ) {
+		&:hover{
+			 .full-double-cta__cover{
+			 	&:before{
+			 		opacity: 1;
+					transform: translate3d(0,0,0);
+				}
+			 }
+		}
+	}
+}
+
+.full-double-cta__bkg-dog{
+	background-image: url("../images/home-large-cta--dog.jpg");
+	background-repeat: no-repeat;
+}
+
+.full-double-cta__bkg-vet-dog{
+	background-image: url("../images/large-cta--vet-dog.jpg");
+	background-repeat: no-repeat;
+}
+
+.full-double-cta__bkg-cat{
+	background-image: url("../images/home-large-cta--cat.jpg");
+	background-repeat: no-repeat;
+}
+
+.full-double-cta__cover{
+	color: #fff;
+	font-size: 1.25em;
+	position: absolute;
+	backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &:before{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 75%);
+		content: '';
+		opacity: 0;
+
+		transform: translate3d(0,50%,0);	
+		transition: opacity 0.35s, transform 0.35s;
+    }
+}
+
+ .full-double-cta__content__text, .full-double-cta__content__item{
+	transition: transform 0.35s, color 0.35s;
+}
+
+.full-double-cta__content__link{
+
+	position: absolute;
+	opacity: 1;
+	margin:0 auto;
+    right:0;
+    left:0;
+    width: 70%;
+    bottom: -170px;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.full-double-cta__bkg:hover {
+	.full-double-cta__content__text, .full-double-cta__content__item {
+		@include media-min( medium ) {
+			transform: translate3d(0,-120px,0)
+		}
+	}
+}
+
+.full-double-cta__bkg:hover .full-double-cta__content__link {
+	@include media-min( medium ) {
+		transform: translate3d(0,-190px,0);
+	}
+}
+
+
+

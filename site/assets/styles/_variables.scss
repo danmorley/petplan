@@ -1,0 +1,186 @@
+/*------------------------------------*\
+    #project variables
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+    #colors
+\*------------------------------------*/
+$color-alpha:         	#0054a4 ;  /* blue */
+$color-alpha-light:   	lighten($color-alpha, 10%) ;
+$color-alpha-dark:    	darken($color-alpha, 10%) ;
+
+$color-beta:       		#8ebe3f ; /* green */
+$color-beta-light: 		lighten($color-beta, 10%) ;
+$color-beta-dark:  		darken($color-beta, 10%) ;
+
+$color-tertiary:            #f47721 ;/* green */
+$color-tertiary-light:      lighten($color-beta, 10%) ;
+$color-tertiary-dark:       darken($color-beta, 10%) ;
+
+$color-info:            #ffcb05 ; /* yellow */
+
+$color-success:         #2ecc71 !default;
+$color-warning:         #e74c3c !default;
+$color-danger:          #f39c12 !default;
+
+$color-delta: #662d91;
+
+$black : #000 !default;
+$white : #fff ;
+
+$body-background:       #fff ;
+
+
+
+/*------------------------------------*\
+    #Grays
+\*------------------------------------*/
+$gray-base:             $black !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 60%) !default;   // #999
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$gray-text: #565b5e;
+
+$gray-text-light: #b7b8ba;
+
+$gray-border--light: #f7fafc;
+$yellow-link: #ffcc06 !default;
+
+/*------------------------------------*\
+    #Fonts
+\*------------------------------------*/
+$font-primary     : "American Typewriter", "Times New Roman", Times, serif;
+$font-secondary   : Arial ;
+$font-mono        : "Courier New", Courier, monospace !default;
+
+
+$sticky-footer-height-mobile: 64px;
+$sticky-footer-height: 84px;
+
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+$base-font-size         : 13px !default;
+$base-font-size-big     : 18px !default;
+$base-font-size-small   : 12px !default;
+
+$base-font 				: $font-primary ;
+$base-font-style        : normal !default;
+$base-font-variant      : normal !default;
+$base-font-color        : $gray-dark !default;
+$base-font-weight       : normal !default;
+$base-line-height       : 1.2 ;
+$base-letter-spacing    : 0 !default;
+
+$base-weight-strong     : 700 !default;
+$base-variant-alt       : italic !default;
+
+
+/* Table colors  */
+
+
+$th-primary : #8a5fab;
+
+$th-secondary : #8ebe3f;
+
+$th-tertiary: #f7fafc;
+
+
+$td-primary : #cebcdc;
+$td-primary-light : #e8e0ef;
+
+
+$td-secondary : #e8f2d9;
+
+
+/*------------------------------------*\
+    #Spacing
+\*------------------------------------*/
+$spacing-nano 		: 10px ;
+$spacing-micro 		: 20px ;
+$spacing-milli 		: 30px ;
+$spacing-centi 		: 40px ;
+$spacing-deci 		: 50px ;
+$spacing-deca 		: 60px ;
+$spacing-hecto 		: 70px ;
+$spacing-kilo 		: 80px !default;
+$spacing-mega 		: 90px !default;
+$spacing-giga 		: 100px !default;
+
+
+
+
+
+/*------------------------------------*\
+    #transitions
+\*------------------------------------*/
+$transition-duration        : .3s;
+$transition-timing          : ease;
+$transition                 : $transition-duration $transition-timing;
+
+$transition-all     : all $transition-duration $transition-timing ;
+$transition-bg      : background $transition-duration $transition-timing ;
+$transition-color   : color $transition-duration $transition-timing ;
+
+
+
+
+/*------------------------------------*\
+    #Media Queries
+\*------------------------------------*/
+
+$screen-smallest : 320px ;
+$screen-small   : 480px ;
+$screen-medium  : 768px ;
+$screen-large   : 960px ;
+$screen-huge    : 1200px !default;
+
+
+
+
+
+
+/*------------------------------------*\
+    #Grid
+\*------------------------------------*/
+$container-width    : $screen-huge !default;
+
+$columns            : 12 ;
+$column-single      : (100% / $columns) !default;
+
+$grid-gutter        : 30px !default;
+$grid-gutter-half   : ($grid-gutter / 2) !default;
+
+
+
+
+/*------------------------------------*\
+    #Headings
+\*------------------------------------*/
+$heading-font   :  $font-primary !default;
+$heading-color  :  $color-alpha !default;
+$heading-weight :  400 !default;
+
+$h1-font-size           : 80px ;
+$h1-font-size-mobile    : 30px ;
+
+$h2-font-size           : 60px ;
+$h2-font-size-mobile    : 26px ;
+
+$h3-font-size           : 40px ;
+$h3-font-size-mobile    : 20px ;
+
+$h4-font-size           : 30px ;
+$h4-font-size-mobile    : 18px ;
+
+$h5-font-size           : 20px ;
+$h5-font-size-mobile    : 16px ;
+
+$h6-font-size           : 16px ;

@@ -1,0 +1,57 @@
+/*------------------------------------*\
+    COLOUR VARIATIONS
+\*------------------------------------*/
+
+
+/* text colours
+ -----------------------------------*/
+.color--alpha {
+    color: $color-alpha;
+    /* blue */
+}
+.color--beta {
+    color: $color-beta;
+     /* green */
+}
+.color--success {
+    color: $color-success;
+}
+.color--warning {
+    color: $color-warning;
+}
+.color--danger {
+    color: $color-danger;
+}
+.color--info {
+    color: $color-info;
+   /* yellow */
+}
+
+.color--delta{
+    color: $color-delta;
+}
+
+
+/* background colours
+ -----------------------------------*/
+.background--alpha {
+    background-color: $color-alpha;
+}
+.background--beta {
+    background-color: $color-beta;
+}
+.background--success {
+    background-color: $color-success;
+}
+.background--warning {
+    background-color: $color-warning;
+}
+.background--danger {
+    background-color: $color-danger;
+}
+.background--info {
+    background-color: $color-info;
+}
+.background--white {
+    background-color: $white
+}

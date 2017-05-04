@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    FLOATS & POSITIONING
+\*------------------------------------*/
+
+
+/* Floats
+ -----------------------------------*/
+.float--left {
+    float: left;
+}
+
+.float--right {
+    float: right;
+}
+
+.float--none {
+    float: none;
+}
+
+
+
+/* Positioning
+ -----------------------------------*/
+.position--relative {
+    position: relative;
+}
+
+.position--top-left {
+    top: 0;
+    left: 0;
+}
+
+.position--top-right {
+    top: 0;
+    right: 0;
+}
+
+.position--bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.position--bottom-right {
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    LISTS
+\*------------------------------------*/
+
+.dotted-list{
+
+}
+.dotted-list__item{
+	position: relative;
+		span{
+			position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			border-radius: 50%;
+			width: 12px;
+			height: 12px;
+			left:-23px;
+			top: 4px;
+		}
+
+		.dotted-list--info &{
+			&:before{
+				background-color: $color-info;
+			}
+		}
+	}
+
+}
+
+
+
+
+
+

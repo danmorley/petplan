@@ -1,0 +1,39 @@
+<div class="site-cover">
+	<%- partial("_partials/site-nav.ejs") %>
+	<div class="site-cover__inner">
+
+		<!--  -->
+		<div class="site-wrapper">
+
+			<%- partial("_partials/site-header.ejs", {addClass:'test'}) %>
+
+			<main class="site-body has-pet-selector-at-bottom">
+<!--
+	<div style="display:none">	
+	</div>
+	-->
+				<%- partial("_sections/home--hero-banner.ejs") %>
+	
+				<%- partial("_sections/home--choose-cover.ejs") %>
+
+				<%- partial("_sections/get-a-quote.ejs") %>
+
+				<%- partial("_sections/home--multi-links.ejs") %>
+
+				<%- partial("_sections/home--pet-support.ejs") %>
+			
+				<%- partial("_sections/home--full-double-cta.ejs") %>
+
+				<%- partial("_sections/home--promotions.ejs") %>
+
+				<%- partial("_sections/home--testimonials.ejs") %>
+	
+				<%- partial("_sections/home--pet-advice.ejs") %>
+			</main>
+
+			<%- partial("_partials/sticky-footer.ejs") %>
+
+		</div>
+
+	</div>
+</div>

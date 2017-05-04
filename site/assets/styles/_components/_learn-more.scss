@@ -1,0 +1,16 @@
+.learn-more__image{
+
+	margin: 30px auto 0;
+
+	@include media-min( medium ) {
+		margin: 0;
+		float: right;
+		position: absolute;
+	    right: 0;
+	    top: 0;
+    }
+}
+
+.learn-more__image--dog{
+	
+}

@@ -1,0 +1,162 @@
+/*------------------------------------*\
+    FORM FIELDS
+\*------------------------------------*/
+
+
+/* mixins
+ -----------------------------------*/
+@mixin field_base() {
+    color: $gray-darker;
+    font-size: 1em;
+
+    display: block;
+    width: 100%;
+    padding: em(10px) em(10px);
+    background-color: $white;
+    border: 1px solid $gray-dark;
+
+    &:focus {
+        outline: 2px solid $black;
+    }
+}
+
+@mixin field_radio_checkbox() {
+    position: absolute;top: 0;
+    left: 0;
+
+    opacity: 0;
+}
+
+@mixin field_radio_checkbox_label() {
+    display: block;
+    padding-left: 20px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 0;
+
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: $white;
+        border: 2px solid $color-alpha;
+    }
+
+    // active styles go here
+    input:checked + & {
+        &:before {
+            background: $color-alpha;
+        }
+    }
+
+    // for people tabbing through the pages
+    input:focus + & {
+        outline: 1px dotted $gray-darker;
+        &:hover {
+            outline: none;
+        }
+    }
+}
+
+
+
+/*  Element selector style
+ -----------------------------------*/
+label {
+    cursor: pointer;
+}
+
+
+
+/* Form field cover
+ -----------------------------------*/
+.form-field-cover {
+    position: relative;
+
+    margin-bottom: em(20px);
+}
+
+
+
+
+/* Form labels
+ -----------------------------------*/
+.form-field-label {
+    font-size: em($base-font-size-small);
+
+    display: inline-block;
+}
+
+
+
+
+/* Input form field
+ -----------------------------------*/
+.field-input {
+    @include field_base();
+}
+
+
+
+/* Radio input
+ -----------------------------------*/
+.field-radio {
+    @include field_radio_checkbox();
+}
+.field-radio__label {
+    @include field_radio_checkbox_label();
+    &:before {
+        border-radius: 50%;
+    }
+}
+
+
+
+/* Checkbox input
+ -----------------------------------*/
+.field-checkbox {
+    @include field_radio_checkbox();
+}
+.field-checkbox__label {
+    @include field_radio_checkbox_label();
+}
+
+
+
+/* Select field
+ -----------------------------------*/
+.field-select {
+    position: relative;
+
+    margin-bottom: 20px;
+    background: $white;
+
+    cursor: pointer;
+
+    &:before {
+        content: '\25BE';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        line-height: 40px;
+        text-align: center;
+
+        width: 40px;
+    }
+}
+.field-select__input {
+    @include field_base();
+
+    position: relative;
+    z-index: 2;
+
+    background: none;
+    border-radius: 0;
+
+    cursor: poiner;
+    appearance: none;
+}
